@@ -1254,3 +1254,91 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.27-22.09.43:343][ 13]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 6.779937
 [2025.11.27-22.09.43:346][ 13]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1416957435
 [2025.11.27-22.09.43:346][ 13]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6.779937, Update Interval: 324.939728
+[2025.11.27-22.11.15:356][322]LogDerivedDataCache: C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-22.12.42:180][582]LogShaderCompilers: Display: ================================================
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Total job queries 7 196, among them cache hits 2 186 (30.38%), DDC hits 4 715 (65.52%), Duplicates 264 (3.67%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Tracking 4 746 distinct input hashes that result in 4 009 distinct outputs (84.47%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: RAM used: 70,97 MiB of 1,60 GiB budget. Usage: 4.33%
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Shaders Compiled: 31
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Jobs assigned 31, completed 31 (100%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Average time worker was idle: 2.26 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Time job spent in pending queue: average 0.63 s, longest 3.17 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Job execution time: average 2.86 s, max 5.21 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Job life time (pending + execution): average 3.50 s, max 5.21
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Shader code size: total 503,506 KiB, numShaders 31, average 16,241 KiB, min 5,883 KiB, max 28,704 KiB
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.29 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  1.40%
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.29 jobs/batch
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Average processing rate: 2.75 jobs/sec
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Total thread time: 52,28 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Total thread preprocess time: 129,913 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Percentage time preprocessing: 248.49%
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Effective parallelization: 4.63 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.578763
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 1.85 sec, max 2.12 sec, min 1.51 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   17 times, average 1.77 sec, max 3.42 sec, min 1.24 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                   FPathTracingMaterialCHS_IS (compiled    1 times, average 1.36 sec, max 1.36 sec, min 1.36 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 1.11 sec, max 1.11 sec, min 1.11 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 57.64% of total time (compiled   17 times, average 1.77 sec, max 3.42 sec, min 1.24 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 35.46% of total time (compiled   10 times, average 1.85 sec, max 2.12 sec, min 1.51 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                                   FPathTracingMaterialCHS_IS - 2.59% of total time (compiled    1 times, average 1.36 sec, max 1.36 sec, min 1.36 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial - 2.13% of total time (compiled    1 times, average 1.11 sec, max 1.11 sec, min 1.11 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS - 1.53% of total time (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: === Material stats ===
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Materials Translated:    144
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Material Translation Only: 0.07 s (45%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.27-22.12.42:181][582]LogShaderCompilers: Display: ================================================
+[2025.11.27-22.15.08:878][ 22]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 332.332825
+[2025.11.27-22.15.09:878][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.15.09:878][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.000092, Update Interval: 355.563232
+[2025.11.27-22.21.08:643][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 692.098450
+[2025.11.27-22.21.09:643][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.21.09:643][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 692.764954, Update Interval: 311.984619
+[2025.11.27-22.26.29:392][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1012.848145
+[2025.11.27-22.26.30:393][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.26.30:393][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1013.515076, Update Interval: 358.626678
+[2025.11.27-22.32.44:827][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1388.280640
+[2025.11.27-22.32.45:827][192]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.32.45:827][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1388.947510, Update Interval: 331.260712
+[2025.11.27-22.38.38:609][250]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1742.060669
+[2025.11.27-22.38.39:610][253]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.38.39:610][253]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1742.727417, Update Interval: 350.983612
+[2025.11.27-22.45.25:373][470]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2148.823975
+[2025.11.27-22.45.26:374][473]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.45.26:374][473]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2149.490723, Update Interval: 314.705658
+[2025.11.27-22.51.14:797][518]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2498.246582
+[2025.11.27-22.51.15:797][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.51.15:798][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2498.914062, Update Interval: 333.280426
+[2025.11.27-22.57.39:550][672]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2882.997070
+[2025.11.27-22.57.40:549][675]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-22.57.40:549][675]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2883.663330, Update Interval: 326.827606
+[2025.11.27-23.03.43:673][764]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3247.119385
+[2025.11.27-23.03.44:671][767]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.03.44:671][767]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3247.784668, Update Interval: 333.943298
+[2025.11.27-23.10.06:749][913]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3630.197266
+[2025.11.27-23.10.07:749][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.10.07:749][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3630.862549, Update Interval: 334.283875
+[2025.11.27-23.11.15:357][119]LogDerivedDataCache: C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-23.16.33:827][ 74]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4017.271729
+[2025.11.27-23.16.34:826][ 77]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.16.34:826][ 77]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4017.937012, Update Interval: 330.458679
+[2025.11.27-23.22.42:943][181]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4386.381348
+[2025.11.27-23.22.43:941][184]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.22.43:941][184]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4387.045410, Update Interval: 352.464966
+[2025.11.27-23.29.25:083][387]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4788.516602
+[2025.11.27-23.29.26:083][390]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.29.26:083][390]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4789.183105, Update Interval: 323.586548
+[2025.11.27-23.35.23:873][463]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5147.296875
+[2025.11.27-23.35.24:873][466]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.35.24:873][466]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5147.963867, Update Interval: 348.440186
+[2025.11.27-23.41.59:022][648]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5542.438965
+[2025.11.27-23.42.00:023][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-23.42.00:023][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5543.107422, Update Interval: 318.886078
